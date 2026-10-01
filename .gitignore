@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Machine Learning Extensions ---
+data/
+*.csv
+*.xlsx
+*.pkl
+*.joblib
+.ipynb_checkpoints/
+mlruns/
