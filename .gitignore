@@ -225,3 +225,26 @@ data/
 *.joblib
 .ipynb_checkpoints/
 mlruns/
+
+# Jupyter Lab & Notebook caches
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.jupyter/
+.lab-settings/
+.virtual_documents/
+
+# Anaconda & Python runtime
+__pycache__/
+*.pyc
+env/
+venv/
+.conda/
+
+# Large Datasets & Model Artifacts
+*.csv
+*.parquet
+*.pkl
+*.pt
+*.onnx
+*.h5
+data/
